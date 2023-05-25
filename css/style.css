@@ -1,0 +1,181 @@
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Black.ttf);
+  }
+
+.nav-custom {
+	padding: 10px;
+	background-color: black;
+}
+.navbar-inner {
+	width: 50%;
+	margin: auto;
+}
+
+.something {
+	background-image: url("../img/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20%;
+}
+.featured-shows {
+	font-size: 80px;
+	text-align: center;
+	color: white; 
+}
+.main-body {
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.navbar-main {
+	color: white; 
+	font-size: 30px;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+.nav-custom .nav-item {
+	color: white;
+	padding-left: 30px;
+}
+footer {
+	background-color: black;
+	color: white;
+  }
+  
+  .grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"r1c1 r1c2 r1c3 r1c4"
+  }
+  
+.chicagomap {
+    grid-area: "r1c1";
+	font-size: 10px;
+}
+
+.info {
+    grid-area: "r1c2";
+	font-size: 10px;
+}
+
+.shows{
+    grid-area: "r1c3";
+	font-size: 10px;
+}
+
+.social{
+    grid-area: "r1c4";
+	font-size: 10px;
+}
+
+  .footer-section {
+	text-align: center;
+  }
+  
+  .footer-section img {
+	max-width: 100%;
+  }
+  
+  .footer-section h3 {
+	color: white;
+  }
+  
+  .footer-section ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .footer-section ul li {
+	margin-bottom: 10px;
+  }
+  
+  .featured-shows {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+  }
+
+.row {
+	display: flex;
+  }
+  
+  [class*=curtain] {
+    height: 100px;
+    margin: 5vh;
+    padding: 5vw;
+  }
+  
+  [class*=curtain]::after,
+  [class*=curtain]::before {
+    content: '';
+    background: url("../img/curtain.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transition-duration: 0.5s;
+  }
+  
+  .curtain::after,
+  .curtain::before {
+    height: 100%;
+    width: 100%;
+  }
+  
+  [class*=curtain]:hover::after,
+  [class*=curtain]:hover::before {
+    opacity: 0;
+  }
+  
+  .curtain:hover::after,
+  .curtain:hover::before {
+    transform: translate(20px);
+  }
+  
+  .chicagomap {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+
+  .no-bullets {
+	list-style-type: none;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+}​
+
+.show-list-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f7b72e;
+	margin-bottom: 10px;
+	text-align: center;
+  }
+  
+  .show-list-item {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 5px;
+	text-align: center;
+  }
+  
+  .show-list-price {
+	font-size: 30px;
+	font-weight: bold;
+	color: #f7b72e;
+	text-align: center;
+  }
+  
+  
